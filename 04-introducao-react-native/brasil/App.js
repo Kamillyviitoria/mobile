@@ -19,7 +19,7 @@ export default function App() {
         <Text style={{ fontSize: 60, fontWeight: 800 }}>Time Brasil</Text>
         <Image
           source={{
-            uri: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png",
+            uri: "https://i.pinimg.com/originals/38/31/8b/38318b039e70d19d539eb5cc054f11be.jpg",
           }}
           style={{
             height: 300,
@@ -74,15 +74,13 @@ export default function App() {
         <Text style={styles.text}>
           A Seleção Brasileira é bicampeã olímpica, com títulos conquistados nos Jogos Olímpicos de 2016 e 2020.
         </Text>
-
-        {/* ScrollView para exibir imagens lado a lado */}
         <ScrollView
           horizontal={true}
           showsHorizontalScrollIndicator={false}
         >
           <Image
             source={{
-              uri: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pelé_1970.jpg/800px-Pelé_1970.jpg",
+              uri: "https://assets.goal.com/images/v3/blt5b148942f23012e9/WC_2026_Brazil.jpg?auto=webp&format=pjpg&width=3840&quality=60",
             }}
             style={styles.image}
           />
@@ -94,7 +92,7 @@ export default function App() {
           />
           <Image
             source={{
-              uri: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Neymar_2018.jpg/800px-Neymar_2018.jpg",
+              uri: "https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2022/06/brasil.jpg",
             }}
             style={styles.image}
           />
